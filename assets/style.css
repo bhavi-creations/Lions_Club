@@ -1091,10 +1091,11 @@ color: #01539D;
 
 
   .custom-nav-link {
-    background: linear-gradient(to right, rgb(255, 1, 221), rgb(221, 255, 0), rgb(0, 255, 38), rgb(6, 229, 237), rgb(184, 4, 255));
+    background: linear-gradient(to right,#8400e2, #df0e86  ,  #0c54da, rgb(184, 4, 255) ,rgb(255, 1, 221)); 
+   
     background-size: 400% 400%;
     animation: gradientAnimation 4s linear infinite;
- 
+   
 }
 
 @keyframes gradientAnimation {
@@ -1122,4 +1123,8 @@ color: #01539D;
     width: 200px;
     height: 180px;
     margin-bottom: 10px;
+}
+
+.eve{
+    margin-bottom:  10px;
 }
