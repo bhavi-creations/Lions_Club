@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your website description">
+    <meta name="keywords" content="your,keywords,here">
+    <meta name="author" content="Your Name">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Sahasra Collage</title>
+    <link rel="icon" href="./assets/images/logo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="./assets/style.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-lYFkg6eZ2q7hnkxZ9pPt2K/CszkQzPLhtlDwe2lnJQmI+iY9GM1f3tmzxoTfwUKl" crossorigin="anonymous">
+ 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+ 
+    <script src="https://kit.fontawesome.com/742df65007.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+      
+
+    
+</head>
+<body onload="changeBrochure()">
+    <header>
+        <div class="  d-none   d-lg-block">
+            <div class="row d-flex">
+                    <!-- Logo -->
+                    <div class="col-md-3 d-flex  " >
+                        <a href="./index.html"><img class="img-fluid  mrg_img" style="height:75px;"  src="./assets/images/logo.png" alt=""></a>
+                    </div>
+                
+                        <!-- Telephone -->
+                        <div class="col-md-3 d-flex align-items-center  head_telephone" >
+                            <div class="green-circle">
+                                <i class="bi bi-telephone white-icon align-middle"></i>
+                            </div>
+                            <div> 
+                                <p style="margin-left: -63px; margin-bottom: 0px; color: grey;" > <strong>Call</strong> 
+                                 </p>
+                                 <p  style="margin-top: 0px;">98588 94999
+                                </p>
+                            </div>
+
+                        </div>
+                    
+                        <!-- Geo Location -->
+                                       
+                        <div class="col-md-3 d-flex align-items-center  head_location"   >
+                            <div class="green-circle" >
+                                <i class="bi bi-geo-alt white-icon"></i>
+                            </div>
+                            <div class="head_content"> 
+                                <p class="head_address" style="margin-left: -110px; margin-bottom: 0px; color: grey;" > <strong>Address</strong> 
+                                 </p>
+                                 <p class="head_kakinda"  style="margin-top: 0px;">Bhaskar Nagar,  kakinada 
+                                </p>
+                            </div>
+
+                        </div>
+            
+                        <!-- Contact Us -->
+                        <div class="col-md-3 d-flex align-items-center head_contact "    >
+                            <div class="bg-green"  style="margin-left: 50px;">
+                             <a href="contact.html" style="color: white; text-decoration: none;">   <p class="paragraph"><strong> Contact Us </strong>  </p></a>
+                            </div>
+                        </div>                     
+            </div>
+        </div>
+        
+    </header>
+
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light    nav_top">
+        <div class="container   ">
+            <img class="img_logo  "  style="width: 160px; height: 75px;" src="./assets/images/logo.png" alt="">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse nav_names" id="navbarNav">
+                <ul class="navbar-nav  nav_auto" >
+                    <li class="nav-item">
+                        <a style="color:white; font-weight: bold;" class="  nav-link " href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a  style="color:white; font-weight: bold;"  class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color:white; font-weight: bold;"  class="nav-link" href="admission.html">Admission</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a style="color:white; font-weight: bold;"  class="nav-link" href="courses.html">Courses</a>
+                    </li> -->
+                    <li class="nav-item dropdown">
+                        <a style="color:white; font-weight: bold;"  class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Courses
+                        </a>
+                        <div    class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a style="color:black; font-weight: bold;"  class="dropdown-item" href="./mpc.html">M.P.C</a>
+                            <a style="color:black; font-weight: bold;"  class="dropdown-item" href="./bipc.html">BI.P.C</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color:white; font-weight: bold;"  class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a style="color:white; font-weight: bold;"  class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Sahasra excellence
+                        </a>
+                        <div    class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a style="color:black; font-weight: bold;"  class="dropdown-item" href="achievements.html">Achivements</a>
+                        </div>
+                    </li>
+                    <li class="nav-item only_toggle d-xs-block d-lg-none">
+                        <a style="color:white; font-weight: bold;"  class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <img class="img-fluid " src="assets/images/Untitled design (14).png"  alt="">
+    <main class="container mt-4">
+  
+
+ 
+ 
+ <!-- SLIDER CARD -->
+<div class="container card slider_card shadow padding_style disible_to_md disible_up_to_md">
+    <div class="row text-center">
+        <div class="drop_down_style style_to_xs_card col-lg-2 col-md-6 col-sm-6 d-flex align-items-center justify-content-center" style="font-weight: bold;">
+            <p  style="font-weight: bold; padding-right: 20px;padding-top: 15px;">About Us</p>
+
+            <div class="custom-select-width ">
+                <select id="yearDropdown" onchange="changeYear(); changeBrochure();"  style="font-weight: bold; color: rgb(78, 78, 78);" class="form-select shadow" style="border: none;">
+                    <option value="year" selected><strong>Select Year</strong></option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- ... Other elements in your dropdown ... -->
+        <!-- <div class="text_card_top style_to_xs col-lg-2 col-md-6 col-sm-6  " >
+            <p  style="font-weight: bold;">JEE ADVANCED</p>
+        </div>
+
+        <div class="text_card_top style_to_xs col-lg-2 col-md-6 col-sm-6">
+            <p  style="font-weight: bold;">JEE MAIN</p>
+        </div>
+
+        <div class="text_card_top style_to_xs col-lg-3 col-md-6 col-sm-6">
+            <p  style="font-weight: bold;">NEET ADVANCED</p>
+        </div>
+
+        <div class="text_card_top style_to_xs col-lg-2 col-md-6 col-sm-6">
+            <p  style="font-weight: bold;">EAPCET</p>
+        </div> -->
+
+        <!-- <div class="text_card_top style_to_xs only_xs_mb col-lg-1 col-md-6  col-sm-6">
+            <a id="brochureLink" href="#" download><i style="font-weight: bold;" class="bi bi-download solid-icon bg-circle-red"></i></a>
+        </div> -->
+    </div>
+</div>
+
+<section class="mt-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 d-flex flex-row justify-content-center">
+                <a href="./index.html" style="color:#112629"><i class="fa-solid fa-chevron-left icon1"></i></a>
+                <h2 class="main-heading">Achievements</h2>
+                <a><i class="fa-solid fa-arrow-turn-down icon2"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<div id="achievementsSection" class="container mt-4">
+    <!-- The content for achievements will be dynamically added here based on the selected year -->
+    <h2 class="achive_heading"></h2>
+    <p class="achive_para"></p>
+    <img id="achievementsImage" class="img-fluid d-flex flex-row justify-content-center" src="./assets/images/achievements.jpg" />
+    <img id="achievementsImagez" src="" alt="">
+</div>
+
+<script>
+    function changeYear() {
+        var selectedYear = document.getElementById("yearDropdown").value;
+        var achievementsHeading = document.querySelector(".achive_heading");
+        var achievementsParagraph = document.querySelector(".achive_para");
+        var achievementsImage = document.getElementById("achievementsImage");
+        var achievementsImagez = document.getElementById("achievementsImagez");
+
+        // Customize the content based on the selected year
+        if (selectedYear === "2019") {
+            achievementsHeading.textContent = "Elevating Excellence, One Success Story at a time.";
+            achievementsParagraph.textContent = "No progress? Find a smarter way and be one of the thousands who succeeded with us!";
+            achievementsImage.src = "./assets/images/achievements.jpg";
+        
+
+
+        } else if (selectedYear === "2020") {
+            achievementsHeading.textContent = "Elevating Excellence, One Success Story at a time.";
+            achievementsParagraph.textContent = "No progress? Find a smarter way and be one of the thousands who succeeded with us!";
+            achievementsImage.src = "./assets/images/t_1.png";
+            achievementsImage.src = "./assets/images/coll1 (1).jpg";
+
+            
+        } else if (selectedYear === "2021") {
+            achievementsHeading.textContent = "Elevating Excellence, One Success Story at a time.";
+            achievementsParagraph.textContent = "No progress? Find a smarter way and be one of the thousands who succeeded with us!";
+            achievementsImage.src = "./assets/images/coll2 (1).jpg";
+        } else if (selectedYear === "2022") {
+            achievementsHeading.textContent = "Elevating Excellence, One Success Story at a time.";
+            achievementsParagraph.textContent = "No progress? Find a smarter way and be one of the thousands who succeeded with us!";
+            achievementsImage.src = "./assets/images/coll4 (1).jpg";
+        } 
+    }
+    
+
+
+    // function changeBrochure() {
+    //     var selectedYear = document.getElementById("yearDropdown").value;
+    //     var brochureLink = document.getElementById("brochureLink");
+
+    //     // Define the base path for your brochures
+    //     var basePath = "brouchers/Nemala_Subrahmanyam_CV_";
+
+    //     // Update the href and download attributes based on the selected year
+    //     brochureLink.href = basePath + selectedYear + ".pdf";
+    //     brochureLink.download = "Nemala_Subrahmanyam_CV_" + selectedYear + ".pdf";
+    // }
+
+</script>
+<!-- ENDING SLIDER CARD -->
+
+
+ 
+
+
+
+
+
+
+
+
+    </main>
+
+    <footer class="text-light text-center py-3  foot mt-5" >
+        <div class="container">
+            <div class="row">
+                <div class="col-8 col-md-4 col-sm-7 col-xs-6 col-lg-4 col-xl-4 ">
+                    <img src="./assets/images/logo.png" alt="" class="d-flex img-fluid"  />
+                    <p class="paragraph1 mt-2 footer-paragraph" style="color:#555555"> Unlock your potential at Sahasra College with innovative education, dedicated faculty, and state-of-the-art facilities.</p>
+                    <div class="d-flex ">
+                        <i class="fa-brands fa-facebook pr-2 footicon"></i>
+                        <i class="fa-brands fa-instagram pr-2 footicon"></i>
+                        <i class="fa-brands fa-twitter pr-2 footicon"></i>
+                        <i class="fa-brands fa-youtube pr-2 footicon"></i>
+                        <i class="fa-brands fa-linkedin pr-2 footicon"></i>
+                        <i class="fa-brands fa-pinterest pr-2 footicon"></i>
+                    </div>
+                </div>
+                <div class=" col-4 col-md-2 col-sm-5 col-xs-6 col-lg-2 col-xl-2 ">
+                    <h3 class="paragraph1 mt-5 footer-heading" style="color:#0C0531;font-weight:bold;font-size:18px;font-family:inter ">Links</h3>
+                    <a href="./index.html" ><p class="paragraph1 footer-paragraph" style="color:#6A6B6C;">Home</p></a>
+                    <a href="./mpc.html"><p class="paragraph1 footer-paragraph" style="color:#6A6B6C;">Courses</p></a>
+                    <a href="./gallery.html"><p class="paragraph1 footer-paragraph" style="color:#6A6B6C;">Gallery</p></a>
+                </div>
+                <div class="col-7 col-md-3 col-sm-7 col-xs-6 col-lg-3 col-xl-3">
+                    <h3 class="paragraph1 mt-5 footer-heading" style="color:#0C0531;font-weight:bold;font-size:18px;font-family:inter">Resource</h3>
+                    <a href="./about.html"><p class="paragraph1 footer-paragraph" style="color:#6A6B6C;">About Us</p></a>
+                    <a href="./achievements.html"><p class="paragraph1 footer-paragraph" style="color:#6A6B6C;">Achievements</p></a>
+                    <a href="./admission.html"><p class="paragraph1 footer-paragraph" style="color:#6A6B6C;">Admission</p></a>
+                </div>
+                <div class="col-5 col-md-3 col-sm-5 col-xs-6 col-lg-3 col-xl-3">
+                    <h3 class="paragraph1 mt-5 footer-heading" style="color:#0C0531;font-weight:bold;font-size:18px;font-family:inter">Contacts</h3>
+                    <a><p class="paragraph1 footer-paragraph" style="color:#6A6B6C;">Kakinada</p>
+                    <a href="./contact.html"><p class="paragraph1 footer-paragraph" style="color:#6A6B6C;">Support</p>
+                    <a><p class="paragraph footer-paragraph" style="color:#6A6B6C;">8050080500</p>
+                </div>
+            </div>
+        </div><hr/>
+        <div class="footer-area-bottom theme-bg">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xl-8 col-lg-9 col-md-12 col-12">
+                     <div class="footer-widget__copyright">
+                        <span style="color:#0C0531">  ©2024 Sahasra Junior College . <i>All Rights Reserved by <a href="https://bhavicreations.com/" target="_blank" style="text-decoration: none;color:#026F7F">Bhavi Creations</a></i></span>
+                     </div>
+                  </div> 
+                  <div class="col-xl-4 col-lg-3 col-md-12 col-12">
+                     <div class="footer-widget__copyright-info info-direction">
+                        <ul class="d-flex align-items-center">
+                            <li><a href="trems.html" style="text-decoration: none;color:#026F7F">Terms and conditions</a></li>&nsbp
+                           
+                           <li><a href="privacy.html" style="text-decoration: none;color:#026F7F">Privacy policy</a></li>
+                         </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+    </footer>
+
+    <div class="whatsapp_logo ">
+        <a href="https://api.whatsapp.com/send?phone=8050080500&text=Wellcome%20to%20onestop%20vascular "
+            target="_blank">
+            <img class="logo" class="whatsapp_icon"
+                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzOSIgaGVpZ2h0PSIzOSIgdmlld0JveD0iMCAwIDM5IDM5Ij48cGF0aCBmaWxsPSIjMDBFNjc2IiBkPSJNMTAuNyAzMi44bC42LjNjMi41IDEuNSA1LjMgMi4yIDguMSAyLjIgOC44IDAgMTYtNy4yIDE2LTE2IDAtNC4yLTEuNy04LjMtNC43LTExLjNzLTctNC43LTExLjMtNC43Yy04LjggMC0xNiA3LjItMTUuOSAxNi4xIDAgMyAuOSA1LjkgMi40IDguNGwuNC42LTEuNiA1LjkgNi0xLjV6Ij48L3BhdGg+PHBhdGggZmlsbD0iI0ZGRiIgZD0iTTMyLjQgNi40QzI5IDIuOSAyNC4zIDEgMTkuNSAxIDkuMyAxIDEuMSA5LjMgMS4yIDE5LjRjMCAzLjIuOSA2LjMgMi40IDkuMUwxIDM4bDkuNy0yLjVjMi43IDEuNSA1LjcgMi4yIDguNyAyLjIgMTAuMSAwIDE4LjMtOC4zIDE4LjMtMTguNCAwLTQuOS0xLjktOS41LTUuMy0xMi45ek0xOS41IDM0LjZjLTIuNyAwLTUuNC0uNy03LjctMi4xbC0uNi0uMy01LjggMS41TDYuOSAyOGwtLjQtLjZjLTQuNC03LjEtMi4zLTE2LjUgNC45LTIwLjlzMTYuNS0yLjMgMjAuOSA0LjkgMi4zIDE2LjUtNC45IDIwLjljLTIuMyAxLjUtNS4xIDIuMy03LjkgMi4zem04LjgtMTEuMWwtMS4xLS41cy0xLjYtLjctMi42LTEuMmMtLjEgMC0uMi0uMS0uMy0uMS0uMyAwLS41LjEtLjcuMiAwIDAtLjEuMS0xLjUgMS43LS4xLjItLjMuMy0uNS4zaC0uMWMtLjEgMC0uMy0uMS0uNC0uMmwtLjUtLjJjLTEuMS0uNS0yLjEtMS4xLTIuOS0xLjktLjItLjItLjUtLjQtLjctLjYtLjctLjctMS40LTEuNS0xLjktMi40bC0uMS0uMmMtLjEtLjEtLjEtLjItLjItLjQgMC0uMiAwLS40LjEtLjUgMCAwIC40LS41LjctLjguMi0uMi4zLS41LjUtLjcuMi0uMy4zLS43LjItMS0uMS0uNS0xLjMtMy4yLTEuNi0zLjgtLjItLjMtLjQtLjQtLjctLjVoLTEuMWMtLjIgMC0uNC4xLS42LjFsLS4xLjFjLS4yLjEtLjQuMy0uNi40LS4yLjItLjMuNC0uNS42LS43LjktMS4xIDItMS4xIDMuMSAwIC44LjIgMS42LjUgMi4zbC4xLjNjLjkgMS45IDIuMSAzLjYgMy43IDUuMWwuNC40Yy4zLjMuNi41LjguOCAyLjEgMS44IDQuNSAzLjEgNy4yIDMuOC4zLjEuNy4xIDEgLjJoMWMuNSAwIDEuMS0uMiAxLjUtLjQuMy0uMi41LS4yLjctLjRsLjItLjJjLjItLjIuNC0uMy42LS41cy40LS40LjUtLjZjLjItLjQuMy0uOS40LTEuNHYtLjdzLS4xLS4xLS4zLS4yeiI+PC9wYXRoPjwvc3ZnPg==">
+        </a>
+    </div>
+    
+    <button id="scrollBtn" onclick="scrollToTop()"><i class="fa-solid fa-arrow-up "></i></button>
+    
+    
+    
+    <script>
+        // Function to scroll to the top of the page
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth' // Optional, smooth scrolling animation
+            });
+        }
+    
+        // Show scroll button when scrolling down
+        window.onscroll = function() {scrollFunction()};
+    
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("scrollBtn").style.display = "block";
+            } else {
+                document.getElementById("scrollBtn").style.display = "none";
+            }
+        }
+    </script>
+    
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

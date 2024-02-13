@@ -35,7 +35,7 @@
 
     
 </head>
-<body>
+<body  onload="changeBrochure()"> 
     <header>
         <div class="  d-none   d-lg-block">
             <div class="row d-flex">
@@ -113,21 +113,49 @@
                     <li class="nav-item">
                         <a style="color:white; font-weight: bold;"  class="nav-link" href="contact.html">Contact Us</a>
                     </li>
-                    <li class="nav-item">
-                        <a style="color:white; font-weight: bold;"  class="nav-link" href="events.html">Up Coming Events</a>
+                    <li class="nav-item mt-2">
+                        <a style="color:white; font-weight: bold; border-radius: 50px; padding: 10px; text-decoration: none;"  class="custom-nav-link" href="events.html">Up Coming Events</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <img class="img-fluid " src="assets/images/Untitled design (14).png"  alt="">
-
+    <img class="img-fluid " src="assets/images/about_us_walll.png"  alt="">
+  
     <main class="container mt-4">
         <!-- Main content -->
 
+        <div class="container card slider_card shadow padding_style disible_to_md disible_up_to_md mb-5">
+            <div class="row text-center">
+                <div class="drop_down_style style_to_xs_2020d col-lg-12 col-md-12 col-sm-12 d-flex align-items-center justify-content-center" style="font-weight: bold;">
+                    <p  style="font-weight: bold; padding-right: 20px;padding-top: 15px;">Our Sankalp Lions</p>
+                    <div class="custom-select-width ">
+                        <!-- <select id="yearDropdown" onchange="changeYear(); changeBrochure();"  style="font-weight: bold; color: rgb(78, 78, 78);" class="form-select shadow" style="border: none;">
+                            <option value="all" ><strong>Select Year</strong></option>
+
+                            <option value="all" > All </option>
+                            <option value="2019">2019</option>
+                            <option value="2020">2020</option>
+                            <option value="2021">2021</option>
+                            <option value="2022">2022</option>
+                        </select> -->
+                         
+                            <select id="menuDropdown"  style="font-weight: bold; color: rgb(78, 78, 78);" class="form-select shadow" style="border: none;">
+                                <option value="all" selected>All Members</option>
+                                <option value="2019">2019</option>
+                                <option value="2020">2020</option>
+                                <option value="2021">2021</option>
+                                <option value="2022">2022</option>
+                            </select>
+                         
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- section1 -->
-        <section>
+        <!-- <section>
             <div class="container ">
                 <div class="row">
                     <div class="col-12 d-flex flex-row justify-content-center">
@@ -137,39 +165,54 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
 
 
-<section>
-   <div class="container mt-5">
-    <h2 style="font-weight: bold;color: #01539D; text-align: center;">Our Members</h2>
+        <div class="product">
+            <img class="img-fluid" src="assets/images/l_1.jpg" data-filter="2019">
+            <img class="img-fluid" src="assets/images/l_2.jpg" data-filter="2019">
+            <img class="img-fluid"src="assets/images/l_3.jpg" data-filter="2019">
+            <img class="img-fluid"src="assets/images/l_4.jpg" data-filter="2019">
 
-    <div class="row">
-        <img class="img-fluid" src="assets/images/m_1.jpg" alt="">
-        <img class="img-fluid" src="assets/images/m_2.jpg" alt="">
+            <img class="img-fluid" src="assets/images/t_1.png" data-filter="2020">
+            <img class="img-fluid" src="assets/images/t_2.png" data-filter="2020">
+            <img class="img-fluid" src="assets/images/t_3.png" data-filter="2020">
+            <img class="img-fluid" src="assets/images/t_4.png" data-filter="2020">
 
-        <img class="img-fluid" src="assets/images/m_3.jpg" alt="">
+            <img class="img-fluid" src="assets/images/1.png" data-filter="2021">
+            <img class="img-fluid" src="assets/images/2.png" data-filter="2021">
+            <img class="img-fluid" src="assets/images/3.png" data-filter="2021">
+            <img class="img-fluid" src="assets/images/4.png" data-filter="2021">
 
-        <img class="img-fluid" src="assets/images/m_4.jpg" alt="">
-        <img class="img-fluid" src="assets/images/m_5.jpg" alt="">
-        <img class="img-fluid" src="assets/images/m_6.jpg" alt="">
+            <img class="img-fluid" src="assets/images/achievements.jpg" data-filter="2022">
+            <img class="img-fluid" src="assets/images/admissions.png" data-filter="2022">
+            <img class="img-fluid" src="assets/images/aim.png" data-filter="2022">
+            <img class="img-fluid" src="assets/images/BIPC.png" data-filter="2022">
+        </div>
 
-        <img class="img-fluid" src="assets/images/m_7.jpg" alt="">
 
-        <img class="img-fluid" src="assets/images/m_8.jpg" alt="">
-        <img class="img-fluid" src="assets/images/m_9.jpg" alt="">
-        <img class="img-fluid" src="assets/images/m_10.jpg" alt="">
-
-        <img class="img-fluid" src="assets/images/m_11.jpg" alt="">
+        <script>
+            const selectMenu = document.getElementById('menuDropdown');
+            const imgItems = document.querySelectorAll('.product img');
+        
+            selectMenu.addEventListener('change', function() {
+                const selectedValue = selectMenu.value;
+                
+                imgItems.forEach(img => {
+                    img.style.display = 'none';
+                    const filterValue = img.getAttribute('data-filter');
+                    
+                    if (selectedValue.toLowerCase() === 'all' || selectedValue.toLowerCase() === filterValue) {
+                        img.style.display = 'block';
+                    }
+                });
+            });
+        </script>
+        
 
  
-    </div>
-   </div>
-</section>
 
-       
-    
 
 
     </main>
@@ -246,8 +289,12 @@
     
     
     <script>
-        // Function to scroll to the top of the page
-        function scrollToTop() {
+  
+
+ 
+
+      // Function to scroll to the top of the page
+      function scrollToTop() {
             window.scrollTo({
                 top: 0,
                 behavior: 'smooth' // Optional, smooth scrolling animation
@@ -264,6 +311,9 @@
                 document.getElementById("scrollBtn").style.display = "none";
             }
         }
+
+
+
     </script>
     
     <!-- Bootstrap Bundle with Popper -->
