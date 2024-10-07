@@ -140,6 +140,7 @@
                     <li class="nav-item">
                         <a style="color:white; font-weight: bold;" class="nav-link" href="contact.html">Contact Us</a>
                     </li>
+
                     <li class="nav-item">
                         <a style="color:white; font-weight: bold;" class="nav-link" href="donations.html">For Donations</a>
                     </li>
@@ -152,101 +153,42 @@
         </div>
     </nav>
 
-    <img class="img-fluid " src="assets/lion_images/about_slider.png" alt="">
+    <!-- <img class="img-fluid " src="assets/lion_images/about_slider.png" alt=""> -->
 
-    <main class="container mt-4">
+    <main class="container mt-4  ">
         <!-- Main content -->
 
-        <div class="container card slider_card shadow padding_style disible_to_md disible_up_to_md mb-5">
-            <div class="row text-center">
-                <div class="drop_down_style style_to_xs_2020d col-lg-12 col-md-12 col-sm-12 d-flex align-items-center justify-content-center"
-                    style="font-weight: bold;">
-                    <p style="font-weight: bold; padding-right: 20px;padding-top: 15px;">Our Sankalp Lions</p>
-                    <div class="custom-select-width ">
-                        <!-- <select id="yearDropdown" onchange="changeYear(); changeBrochure();"  style="font-weight: bold; color: rgb(78, 78, 78);" class="form-select shadow" style="border: none;">
-                            <option value="all" ><strong>Select Year</strong></option>
-
-                            <option value="all" > All </option>
-                            <option value="2019">2019</option>
-                            <option value="2020">2020</option>
-                            <option value="2021">2021</option>
-                            <option value="2022">2022</option>
-                        </select> -->
-
-                        <select id="menuDropdown" style="font-weight: bold; color: rgb(78, 78, 78);"
-                            class="form-select shadow" style="border: none;">
-                            <option value="all" selected>All Members</option>
-                             
-                            <option value="2021">2021 - 2022 </option>
-                            <option value="2022">2022 - 2023</option>
-                            <option value="2023">2023 - 2024 </option>
-                            <option value="2024">2024 - 2025</option>
-                        </select>
-
+       
+        <section class="donation-section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <div class="donation-form bg-white p-4 shadow rounded">
+                            <h2 class="text-center mb-4">Donate Now </h2>
+                            <form action="" method="POST">
+                                <div class="form-group">
+                                    <label for="name">Account Name :  SANKALP LIONS CLUB SERVICES</label>
+                                    
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Account no: 50100687663118</label>
+                                    
+                                </div>
+                                <div class="form-group">
+                                    <label for="amount">Customer id: 267310103</label>
+                                    
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">IFSC CODE: HDFC0007880</label>
+                                     
+                                </div>
+                                
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <!-- section1 -->
-        <!-- <section>
-            <div class="container ">
-                <div class="row">
-                    <div class="col-12 d-flex flex-row justify-content-center">
-                        <a href="./index.html" style="color:#1000eb" ><i class="fa-solid fa-chevron-left icon1"></i></a> 
-                        <h2 class="main-heading">About us</h2>
-                        <a href=""  ><i  style="color:#ffd500"class="fa-solid fa-arrow-turn-down icon2"></i></a>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-
-
-
-        <div class="product">
- 
-            
-
-            <img class="img-fluid" src="assets/images/1.png" data-filter="2021">
-            <img class="img-fluid" src="assets/images/2.png" data-filter="2021">
-            <img class="img-fluid" src="assets/images/3.png" data-filter="2021">
-            <img class="img-fluid" src="assets/images/4.png" data-filter="2021">
-
-            <img class="img-fluid" src="assets/images/achievements.jpg" data-filter="2022">
-            <img class="img-fluid" src="assets/images/admissions.png" data-filter="2022">
-            <img class="img-fluid" src="assets/images/aim.png" data-filter="2022">
-            <img class="img-fluid" src="assets/images/BIPC.png" data-filter="2022">
-
-
-
-
-
-
-
-
-        </div>
-
-
-        <script>
-            const selectMenu = document.getElementById('menuDropdown');
-            const imgItems = document.querySelectorAll('.product img');
-
-            selectMenu.addEventListener('change', function () {
-                const selectedValue = selectMenu.value;
-
-                imgItems.forEach(img => {
-                    img.style.display = 'none';
-                    const filterValue = img.getAttribute('data-filter');
-
-                    if (selectedValue.toLowerCase() === 'all' || selectedValue.toLowerCase() === filterValue) {
-                        img.style.display = 'block';
-                    }
-                });
-            });
-        </script>
-
-
-
+        </section>
 
 
 

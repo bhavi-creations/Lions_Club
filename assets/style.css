@@ -1517,3 +1517,36 @@ textarea {
     width: 0;
     height: 0;
   }
+
+
+  .bg_image_of_donations{
+  
+        background-image: url('../assets/lion_images/bg_donation_img.webp');
+        /* Add other styling like size, position, repeat, etc. */
+        background-size: cover;  
+        background-position: center;  
+        background-repeat: no-repeat;  
+   
+  }
+
+
+  /* Style for the donation page background */
+.donation-section {
+    background-image: url('lion_images/bg_donation_img.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Style for the form */
+.donation-form {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
