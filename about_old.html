@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your website description">
+    <meta name="keywords" content="your,keywords,here">
+    <meta name="author" content="Your Name">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Lions Club</title>
+    <link rel="icon" href="assets/images/Logo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="./assets/style.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha384-lYFkg6eZ2q7hnkxZ9pPt2K/CszkQzPLhtlDwe2lnJQmI+iY9GM1f3tmzxoTfwUKl" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <script src="https://kit.fontawesome.com/742df65007.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+
+</head>
+
+<body onload="changeBrochure()">
+    <header>
+        <div class="d-none d-lg-block">
+          <div class="row d-flex">
+            <!-- Logo -->
+            <div class="col-md-2 d-flex">
+              <a href="./index.html"
+                ><img
+                  class="img-fluid mrg_img"
+                  style="height: 75px"
+                  src="./assets/images/Logo.png"
+                  alt=""
+              /></a>
+            </div>
+  
+            <!-- Telephone -->
+            <div class="col-md-2 d-flex align-items-center head_telephone">
+              <div class="green-circle">
+                <i class="bi bi-telephone white-icon align-middle"></i>
+              </div>
+              <div>
+                <p style="margin-top: 15px">+91 8639954559</p>
+              </div>
+            </div>
+  
+            <!-- Geo Location -->
+            <div class="col-md-7 d-flex align-items-center head_location">
+              <div class="green-circle">
+                <i class="bi bi-geo-alt white-icon" style="width: 50px"></i>
+              </div>
+              <div class="head_content">
+                <p class="head_kakinda" style="margin-top: 15px">
+                  Sri Lalitha Mahila Mandali, G.O.Colony ,Behind Shanthinagar, Jawaharlal park, Shanthinagar Kakinada
+                </p>
+              </div>
+            </div>
+  
+            <!-- <div class="col-md-2 d-flex align-items-center head_contact">
+              <div class="d-flex">
+                <a href="https://www.facebook.com/lionsclubs" target="_blank ">
+                  <i
+                    style="background-color: #47a4f5; color: white"
+                    class="fa-brands fa-facebook pr-2 footicon"
+                  ></i
+                ></a>
+                <a href=" https://www.instagram.com/lionsclubs/" target="_blank">
+                  <i
+                    style="background-color: #f21194; color: #ffffff"
+                    class="fa-brands fa-instagram pr-2 footicon"
+                  ></i>
+                </a>
+                <a href="https://twitter.com/lionsclubs " target="_blank">
+                  <i
+                    style="background-color: #1115f2; color: #ffffff"
+                    class="fa-brands fa-twitter pr-2 footicon"
+                  ></i>
+                </a>
+  
+                <a href=" https://www.youtube.com/user/lionsclubsorg" target="_blank">    <i  style="background-color: #f21111; color: #ffffff;"  class="fa-brands fa-youtube pr-2 footicon"></i></a> 
+                                  <a href="https://www.linkedin.com/company/lions-clubs-international/ " target="_blank">    <i  style="background-color: #1115f2; color: #ffffff;"  class="fa-brands fa-linkedin pr-2 footicon"></i></a> 
+                                  <a href=" https://www.lionsclubs.org/en/blog" target="_blank">    <i  style="background-color: #f21111; color: #ffffff;"  class="fa-brands fa-pinterest pr-2 footicon"></i></a> 
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </header>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light    nav_top">
+        <div class="container   ">
+            <img class="img_logo" style="height: 75px;" src="./assets/images/Logo.png" alt="">
+            <button class="navbar-toggler" style="background-color: #FBD103;" type="button" data-toggle="collapse"
+                data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse nav_names" id="navbarNav">
+                <ul class="navbar-nav  nav_auto">
+                    <li class="nav-item">
+                        <a style="color:white; font-weight: bold;" class="  nav-link " href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color:white; font-weight: bold;" class="nav-link" href="about.html">About Us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a style="color:white; font-weight: bold;" class="nav-link" href="services.html">service</a>
+
+                    </li>
+
+                    <li class="nav-item mt-2 eve  ml-auto d-block d-lg-none" style="margin-top: -30px!important;">
+                        <a style="color:white; font-weight: bold; border-radius: 50px; padding: 10px; text-decoration: none;"
+                            class="custom-nav-link" href="events.html">Up Coming Events</a>
+                    </li>
+
+
+
+                    <li class="nav-item">
+                        <a style="color:white; font-weight: bold;" class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color:white; font-weight: bold;" class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color:white; font-weight: bold;" class="nav-link" href="donations.html">For Donations</a>
+                    </li>
+                    <li class="nav-item mt-2 eve d-none d-lg-block">
+                        <a style="color:white; font-weight: bold; border-radius: 50px; padding: 10px; text-decoration: none;"
+                            class="custom-nav-link" href="events.html">Up Coming Events</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <img class="img-fluid " src="assets/lion_images/about_slider.png" alt="">
+
+    <main class="container mt-4">
+        <!-- Main content -->
+
+        <div class="container card slider_card shadow padding_style disible_to_md disible_up_to_md mb-5">
+            <div class="row text-center">
+                <div class="drop_down_style style_to_xs_2020d col-lg-12 col-md-12 col-sm-12 d-flex align-items-center justify-content-center"
+                    style="font-weight: bold;">
+                    <p style="font-weight: bold; padding-right: 20px;padding-top: 15px;">Our Sankalp Lions</p>
+                    <div class="custom-select-width ">
+                        <!-- <select id="yearDropdown" onchange="changeYear(); changeBrochure();"  style="font-weight: bold; color: rgb(78, 78, 78);" class="form-select shadow" style="border: none;">
+                            <option value="all" ><strong>Select Year</strong></option>
+
+                            <option value="all" > All </option>
+                            <option value="2019">2019</option>
+                            <option value="2020">2020</option>
+                            <option value="2021">2021</option>
+                            <option value="2022">2022</option>
+                        </select> -->
+
+                        <select id="menuDropdown" style="font-weight: bold; color: rgb(78, 78, 78);"
+                            class="form-select shadow" style="border: none;">
+                            <option value="all" selected>All Members</option>
+                             
+                            <option value="2021">2021 - 2022 </option>
+                            <option value="2022">2022 - 2023</option>
+                            <option value="2023">2023 - 2024 </option>
+                            <option value="2024">2024 - 2025</option>
+                        </select>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- section1 -->
+        <!-- <section>
+            <div class="container ">
+                <div class="row">
+                    <div class="col-12 d-flex flex-row justify-content-center">
+                        <a href="./index.html" style="color:#1000eb" ><i class="fa-solid fa-chevron-left icon1"></i></a> 
+                        <h2 class="main-heading">About us</h2>
+                        <a href=""  ><i  style="color:#ffd500"class="fa-solid fa-arrow-turn-down icon2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+
+
+        <div class="product">
+ 
+            
+
+            <img class="img-fluid" src="assets/images/1.png" data-filter="2021">
+            <img class="img-fluid" src="assets/images/2.png" data-filter="2021">
+            <img class="img-fluid" src="assets/images/3.png" data-filter="2021">
+            <img class="img-fluid" src="assets/images/4.png" data-filter="2021">
+
+            <img class="img-fluid" src="assets/images/achievements.jpg" data-filter="2022">
+            <img class="img-fluid" src="assets/images/admissions.png" data-filter="2022">
+            <img class="img-fluid" src="assets/images/aim.png" data-filter="2022">
+            <img class="img-fluid" src="assets/images/BIPC.png" data-filter="2022">
+
+
+
+
+
+
+
+
+        </div>
+
+
+        <script>
+            const selectMenu = document.getElementById('menuDropdown');
+            const imgItems = document.querySelectorAll('.product img');
+
+            selectMenu.addEventListener('change', function () {
+                const selectedValue = selectMenu.value;
+
+                imgItems.forEach(img => {
+                    img.style.display = 'none';
+                    const filterValue = img.getAttribute('data-filter');
+
+                    if (selectedValue.toLowerCase() === 'all' || selectedValue.toLowerCase() === filterValue) {
+                        img.style.display = 'block';
+                    }
+                });
+            });
+        </script>
+
+
+
+
+
+
+    </main>
+
+
+
+    <footer class="text-light text-center py-3  foot " style="background-color:#01539D">
+        <div class="container">
+            <div class="row">
+                <div class="col-8 col-md-4 col-sm-7 col-xs-6 col-lg-4 col-xl-4 ">
+                    <img class="d-flex img-fluid" src="./assets/images/Logo.png" alt="" />
+                    <div class="d-flex justify-content-center">
+                        <a href="https://www.facebook.com/lionsclubs" target="_blank "> <i
+                                style="background-color: #47a4f5; color: white;"
+                                class="fa-brands fa-facebook pr-2 footicon"></i></a>
+                        <a href=" https://www.instagram.com/lionsclubs/" target="_blank"> <i
+                                style="background-color: #f21194; color: #ffffff;"
+                                class="fa-brands fa-instagram pr-2 footicon"></i> </a>
+                        <a href="https://twitter.com/lionsclubs " target="_blank"> <i
+                                style="background-color: #1115f2; color: #ffffff;"
+                                class="fa-brands fa-twitter pr-2 footicon"></i> </a>
+
+                        <a href=" https://www.youtube.com/user/lionsclubsorg" target="_blank"> <i
+                                style="background-color: #f21111; color: #ffffff;"
+                                class="fa-brands fa-youtube pr-2 footicon"></i></a>
+                        <a href="https://www.linkedin.com/company/lions-clubs-international/ " target="_blank"> <i
+                                style="background-color: #1115f2; color: #ffffff;"
+                                class="fa-brands fa-linkedin pr-2 footicon"></i></a>
+                        <!-- <a href=" https://www.lionsclubs.org/en/blog" target="_blank"> <i
+                                style="background-color: #f21111; color: #ffffff;"
+                                class="fa-brands fa-pinterest pr-2 footicon"></i></a> -->
+                    </div>
+                </div>
+                <div class=" col-4 col-md-2 col-sm-5 col-xs-6 col-lg-2 col-xl-2 ">
+                    <h3 class="paragraph1 mt-5 footer-heading"
+                        style="color:#FBD103;font-weight:bold;font-size:18px;font-family:inter ">Links</h3>
+                    <a href="index.html">
+                        <p class="paragraph1 footer-paragraph" style="color:#ffffff;">Home</p>
+                    </a>
+                    <a href="about.html">
+                        <p class="paragraph1 footer-paragraph" style="color:#ffffff;">About Us</p>
+                    </a>
+                    <a href="gallery.html">
+                        <p class="paragraph1 footer-paragraph" style="color:#ffffff;">Gallery</p>
+                    </a>
+                    <a href="donations.html">
+                        <p class="paragraph1 footer-paragraph" style="color:#ffffff;">Donations</p>
+                    </a>
+                </div>
+                <div class="col-7 col-md-3 col-sm-7 col-xs-6 col-lg-3 col-xl-3">
+                    <h3 class="paragraph1 mt-5 footer-heading"
+                        style="color:#FBD103;font-weight:bold;font-size:18px;font-family:inter"> Links</h3>
+                    <a href="services.html">
+                        <p class="paragraph1 footer-paragraph" style="color:#ffffff;">Services</p>
+                    </a>
+                    <a href="contact.html">
+                        <p class="paragraph1 footer-paragraph" style="color:#ffffff;">Contact Us</p>
+                    </a>
+                    <a href="#">
+                        <p class="paragraph1 footer-paragraph" style="color:#ffffff;">+91 8639954559</p>
+                    </a>
+                </div>
+                <div class="col-5 col-md-3 col-sm-5 col-xs-6 col-lg-3 col-xl-3 " style="margin-left: -50px;">
+                    <h3 class="paragraph1 mt-5 footer-heading"
+                        style="color:#FBD103;font-weight:bold;font-size:18px;font-family:inter">Meetings & Location</h3>
+                    <p class="paragraph1 footer-paragraph" style="color:#ffffff;">1st & 3rd Sunday - 10:30 a.m</p>
+                    <p class="paragraph1 mt-2 footer-paragraph" style="color:#ffffff"> Lions Community Hall, <br>
+                        7-6-23/2, <br> Prakasam Street,<br> Rama Rao Peta, <br>Kakinada-1</p>
+
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="footer-area-bottom theme-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-8 col-lg-9 col-md-12 col-12">
+                        <div class="footer-widget__copyright">
+                            <span style="color:#ffffff"> ©2024 Lions Club . <i>All Rights Reserved. Designed & Developed
+                                    by <a href="https://brandbuzzads.com/" target="_blank"
+                                        style="text-decoration: none;color: #FBD103; font-weight: bold;">Brand
+                                        Buzz</a></i></span>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-3 col-md-12 col-12">
+                        <div class="footer-widget__copyright-info info-direction">
+                            <ul class="d-flex align-items-center">
+                                <a href="trems.html" style="text-decoration: none;color: #ffffff">Terms and conditions
+                                    &nbsp;&nbsp; </a>
+
+                                <a href="privacy.html" style="text-decoration: none;color:#ffffff">Privacy policy</a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- <div class="whatsapp_logo ">
+        <a href="#"
+            target="_blank">
+            <img class="logo" class="whatsapp_icon"
+                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzOSIgaGVpZ2h0PSIzOSIgdmlld0JveD0iMCAwIDM5IDM5Ij48cGF0aCBmaWxsPSIjMDBFNjc2IiBkPSJNMTAuNyAzMi44bC42LjNjMi41IDEuNSA1LjMgMi4yIDguMSAyLjIgOC44IDAgMTYtNy4yIDE2LTE2IDAtNC4yLTEuNy04LjMtNC43LTExLjNzLTctNC43LTExLjMtNC43Yy04LjggMC0xNiA3LjItMTUuOSAxNi4xIDAgMyAuOSA1LjkgMi40IDguNGwuNC42LTEuNiA1LjkgNi0xLjV6Ij48L3BhdGg+PHBhdGggZmlsbD0iI0ZGRiIgZD0iTTMyLjQgNi40QzI5IDIuOSAyNC4zIDEgMTkuNSAxIDkuMyAxIDEuMSA5LjMgMS4yIDE5LjRjMCAzLjIuOSA2LjMgMi40IDkuMUwxIDM4bDkuNy0yLjVjMi43IDEuNSA1LjcgMi4yIDguNyAyLjIgMTAuMSAwIDE4LjMtOC4zIDE4LjMtMTguNCAwLTQuOS0xLjktOS41LTUuMy0xMi45ek0xOS41IDM0LjZjLTIuNyAwLTUuNC0uNy03LjctMi4xbC0uNi0uMy01LjggMS41TDYuOSAyOGwtLjQtLjZjLTQuNC03LjEtMi4zLTE2LjUgNC45LTIwLjlzMTYuNS0yLjMgMjAuOSA0LjkgMi4zIDE2LjUtNC45IDIwLjljLTIuMyAxLjUtNS4xIDIuMy03LjkgMi4zem04LjgtMTEuMWwtMS4xLS41cy0xLjYtLjctMi42LTEuMmMtLjEgMC0uMi0uMS0uMy0uMS0uMyAwLS41LjEtLjcuMiAwIDAtLjEuMS0xLjUgMS43LS4xLjItLjMuMy0uNS4zaC0uMWMtLjEgMC0uMy0uMS0uNC0uMmwtLjUtLjJjLTEuMS0uNS0yLjEtMS4xLTIuOS0xLjktLjItLjItLjUtLjQtLjctLjYtLjctLjctMS40LTEuNS0xLjktMi40bC0uMS0uMmMtLjEtLjEtLjEtLjItLjItLjQgMC0uMiAwLS40LjEtLjUgMCAwIC40LS41LjctLjguMi0uMi4zLS41LjUtLjcuMi0uMy4zLS43LjItMS0uMS0uNS0xLjMtMy4yLTEuNi0zLjgtLjItLjMtLjQtLjQtLjctLjVoLTEuMWMtLjIgMC0uNC4xLS42LjFsLS4xLjFjLS4yLjEtLjQuMy0uNi40LS4yLjItLjMuNC0uNS42LS43LjktMS4xIDItMS4xIDMuMSAwIC44LjIgMS42LjUgMi4zbC4xLjNjLjkgMS45IDIuMSAzLjYgMy43IDUuMWwuNC40Yy4zLjMuNi41LjguOCAyLjEgMS44IDQuNSAzLjEgNy4yIDMuOC4zLjEuNy4xIDEgLjJoMWMuNSAwIDEuMS0uMiAxLjUtLjQuMy0uMi41LS4yLjctLjRsLjItLjJjLjItLjIuNC0uMy42LS41cy40LS40LjUtLjZjLjItLjQuMy0uOS40LTEuNHYtLjdzLS4xLS4xLS4zLS4yeiI+PC9wYXRoPjwvc3ZnPg==">
+        </a>
+    </div> -->
+
+    <button id="scrollBtn" onclick="scrollToTop()"><i class="fa-solid fa-arrow-up "
+            style="width:4px;  margin-left: -8px;"></i></button>
+
+
+
+    <script>
+
+
+
+
+        // Function to scroll to the top of the page
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth' // Optional, smooth scrolling animation
+            });
+        }
+
+        // Show scroll button when scrolling down
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("scrollBtn").style.display = "block";
+            } else {
+                document.getElementById("scrollBtn").style.display = "none";
+            }
+        }
+
+
+
+    </script>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
